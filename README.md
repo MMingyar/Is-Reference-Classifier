@@ -1,6 +1,8 @@
 Written with python 3.10.15
 
-This script is used to classify whether a "sentence" is actually a sentence or is a refernce to an article/journal. It is trained on references from The Physics Teacher and is intended to be used to classify text from that journal.
+This script is used to classify whether a "sentence" is actually a sentence or is a refernce to an article/journal. It is trained on references from The Physics Teacher and is intended to be used to classify text from that journal, but works for most other sources as well. 
+
+It does not return a boolean because I confused myself with boolean values too many times, got fed up, and changed it to just be a string. Fork this and change it at your pleasure.
 
 In order to run this, you must have installed one of spacy's en_core_web models. It runs using en_core_web_lg, but you can modify the line in is_tpt_ref.py to use any of them. 
 
