@@ -6,12 +6,12 @@ It does not return a boolean because I confused myself with boolean values too m
 
 In order to run this, you must have installed one of spacy's en_core_web models. It runs using en_core_web_lg, but you can modify the line in is_tpt_ref.py to use any of them. 
 
-Usage: Create a new python script that has sentences you want to classify within the same folder that has is_tpt_ref.py. Import using:
+Usage: Create a new python script that has sentences you want to classify within the same folder that has is_ref.py. Import using:
 
 
 
 ```
-from is_tpt_ref import ReferenceClassifier
+from is_ref import ReferenceClassifier
 
 model_path = "path/to/trained_model.safetensors"
 classifier = ReferenceClassifier(model_path)
